@@ -1,0 +1,33 @@
+{
+  "name": "save-tf-model",
+  "version": "1.0.0",
+  "description": "Exmaple of saving tf model in python and reusing it in js.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzmssk/save-tf-model.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kzmssk/save-tf-model/issues"
+  },
+  "homepage": "https://github.com/kzmssk/save-tf-model#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.0.4",
+    "@tensorflow/tfjs-node": "^1.0.3",
+    "prettier": "^1.16.4",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.3"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
